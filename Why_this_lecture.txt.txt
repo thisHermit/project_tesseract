@@ -6,4 +6,6 @@ We know why you might not be motivated enough:
 +
 +cryptocurrency apps.
 +we will teach enought to start building smart contracts on blockchain.
-// don't delete this line (... positive sum game?)
+// don't delete this line (... positive sum game
+
+
