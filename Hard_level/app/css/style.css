@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Open Sans;
+  text-align: center;
+  vertical-align: middle;
+  list-style-type: none; }
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer; }
+
+body {
+  margin: 0; }
+
+.splash {
+  background: url(..//img/paint-brush.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0; }
+
+.shader {
+  height: 300px;
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  display: inline-block;
+  margin: 10.5vh 1vw 7.5vh 1vw; }
+
+.mainImg {
+  height: 300px;
+  width: 300px;
+  opacity: 0.3;
+  display: none; }
+
+.shaderHeader {
+  padding-top: 20%;
+  font-size: 35px; }
+
+.darken {
+  padding-top: 2vh;
+  height: 200vh;
+  width: 100vw; }
+
+.dark-again {
+  margin: 0; }
+
+.nav {
+  width: 100vw;
+  padding: 5vh;
+  color: #ccc;
+  border-top: 1px solid tan;
+  border-bottom: 1px solid tan; }
+
+.main-header {
+  padding: 5vh; }
+
+.nav-header {
+  display: inline;
+  padding: 5vw; }
+
+.visibility-div {
+  margin: 0;
+  padding: 0;
+  display: inline; }
+
+.shade {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.tags-ul {
+  margin: 0;
+  margin-top: 15px;
+  border: 1px solid green;
+  border-radius: 25px;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black; }
+
+.tags-li {
+  padding: 5px;
+  display: inline-block; }
+
+.search {
+  margin: 25px 0 -50px 0;
+  width: 145px;
+  height: 20px;
+  display: none; }
+
+.description-href {
+  color: black; }

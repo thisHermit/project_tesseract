@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Jack's Art</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!--build:css css/style.min.css-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--endbuild-->
+</head>
+<body>
+	<div class="splash">
+		<div class="shade">
+		<h1 class="main-header dark-again">Jack Masterson Paintings</h1>
+		<div class="nav dark-again" data-bind="foreach: model.nav">
+			<a data-bind="click: nav.init">
+				<h2 class="nav-header" data-bind="text: header"></h2>
+			</a>
+		</div>
+		<input placeholder="Type to Filter!" data-bind="textInput: query, event: {'keyup': filter}" class="search" />
+		<div class="darken" data-bind="foreach: model.paintings">
+			<div class="visibility-div" data-bind="if: visibility">
+				<div class="shader" data-bind="event: { mouseover: showPaintings.init }">
+					<h3 data-bind="attr: {class: headClass}, css:{shaderHeader: classed}, text: name"></h3>
+					<img data-bind="attr: {src: src, class: classed}, css: {mainImg: classed}, event: {mouseover: showPaintings.nameShow, mouseout: showPaintings.nameHide}, style: {height: height - 20 + unit, width: width - 20 + unit}">
+					<a class="description-href" data-bind="click: description.init">
+						<h4>Description</h4>
+					</a>
+					<ul class="tags-ul">
+						<li><strong>Tags</strong></li>
+						<li data-bind="text: tagsFirst()"></li>
+						<li data-bind="text: tagsSecond()"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+<!--build:js js/script.min.js -->
+<script src="js/lib/knockout-3.4.0.js"></script>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<!--endbuild-->
+
+</body>
+</html>

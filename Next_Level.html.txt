@@ -1,0 +1,143 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>simple site</title>
+    <meta name="description" content="Minimal tutorial on making a simple website with GitHub Pages">
+    <meta name="author" content="Karl Broman">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="https://kbroman.org/simple_site/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="https://kbroman.org/simple_site/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="https://kbroman.org/simple_site/assets/themes/twitter/css/kbroman.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+
+    <!-- atom & rss feed -->
+    <link href="https://kbroman.org/simple_sitenil" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="https://kbroman.org/simple_sitenil" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="https://kbroman.org/simple_site">simple site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+
+<div class="page-header">
+  <h2>simple site  <small>Easy websites with GitHub Pages</small></h2>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <p><a href="https://pages.github.com">Github Pages</a> provide a simple way to make a
+website using
+<a href="https://daringfireball.net/projects/markdown/">Markdown</a> and
+<a href="https://git-scm.com">git</a>.</p>
+
+<p>For me, the painful aspects of making a website are</p>
+
+<ul>
+  <li>Working with html and css</li>
+  <li>Finding a hosting site</li>
+  <li>Transferring stuff to the hosting site</li>
+</ul>
+
+<p>With <a href="https://pages.github.com">GitHub Pages</a>, you just write things in
+<a href="https://daringfireball.net/projects/markdown/">Markdown</a>,
+<a href="https://github.com">GitHub</a> hosts the site for you, and you just push
+material to your GitHub repository with <code class="highlighter-rouge">git add</code>, <code class="highlighter-rouge">git commit</code>, and
+<code class="highlighter-rouge">git push</code>.</p>
+
+<p>If you love <a href="https://git-scm.com/">git</a> and
+<a href="https://github.com">GitHub</a>, you’ll love
+<a href="https://pages.github.com">GitHub Pages</a>, too.</p>
+
+<p>The sites use <a href="https://jekyllrb.com/">Jekyll</a>, a
+<a href="https://www.ruby-lang.org/en/">ruby</a> <a href="https://rubygems.org/">gem</a>, to
+convert Markdown files to html, and this part is done
+automatically when you push the materials to the <code class="highlighter-rouge">gh-pages</code> branch
+of a GitHub repository.</p>
+
+<p>The <a href="https://pages.github.com">GitHub</a> and
+<a href="https://jekyllrb.com">Jekyll</a> documentation is great, but I thought it
+would be useful to have a minimal tutorial, for those who just want to
+get going immediately with a simple site. To some readers, what GitHub
+has might be simpler and more direct.  But if you just want to create
+a site like the one you’re looking at now, read on.</p>
+
+<p>Start by reading the <a href="pages/overview.html">Overview page</a>, which
+explains the basic structure of these sites. Then read
+<a href="pages/independent_site.html">how to make an independent website</a>. Then
+read any of the other things, such as
+<a href="pages/local_test.html">how to test your site locally</a>.</p>
+
+<ul>
+  <li><a href="pages/overview.html">Overview</a></li>
+  <li><a href="pages/independent_site.html">Making an independent website</a></li>
+  <li><a href="pages/user_site.html">Making a personal site</a></li>
+  <li><a href="pages/project_site.html">Making a site for a project</a></li>
+  <li><a href="pages/nojekyll.html">Making a jekyll-free site</a></li>
+  <li><a href="pages/local_test.html">Testing your site locally</a></li>
+  <li><a href="pages/resources.html">Resources</a></li>
+</ul>
+
+<p>If anything here is confusing (or <em>wrong</em>!), or if I’ve missed
+important details, please
+<a href="https://github.com/kbroman/simple_site/issues">submit an issue</a>, or (even
+better) fork <a href="https://github.com/kbroman/simple_site">the GitHub repository for this website</a>,
+make modifications, and submit a pull request.</p>
+
+<hr />
+
+<p>The source for this minimal tutorial is <a href="https://github.com/kbroman/simple_site">on github</a>.</p>
+
+<p>Also see my <a href="https://kbroman.org/pages/tutorials">tutorials</a> on
+<a href="https://kbroman.org/github_tutorial">git/github</a>,
+<a href="https://kbroman.org/minimal_make">GNU make</a>,
+<a href="https://kbroman.org/knitr_knutshell">knitr</a>,
+<a href="https://kbroman.org/pkg_primer">R packages</a>,
+<a href="https://kbroman.org/dataorg">data organization</a>,
+and <a href="https://kbroman.org/steps2rr">reproducible research</a>.</p>
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p><small>
+  <!-- start of Karl's footer; modify this part -->
+          <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0"/></a> &nbsp;
+          <a href="https://kbroman.org">Karl Broman</a>
+  <!-- end of Karl's footer; modify this part -->
+        </small></p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
